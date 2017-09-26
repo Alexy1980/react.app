@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Alexy1980/react.app/issues"
   },
-  "homepage": "https://github.com/Alexy1980/react.app#readme"
+  "homepage": "https://github.com/Alexy1980/react.app#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
