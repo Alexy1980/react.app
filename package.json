@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Alexy1980/react.app#readme",
   "dependencies": {
     "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.6.0"
   }
 }
