@@ -1,5 +1,5 @@
 // конфигурация webpack
-require('webpack');
+var webpack = require('webpack');
 module.exports = {
     // точка входа
     entry: './src/index.js',
@@ -8,5 +8,10 @@ module.exports = {
         // глобальная переменная для node.js
         path: __dirname + '/public',
         filename: 'bundle.js'
+    },
+    module: {
+        loaders: [
+            { test: /\.less$/, loader: "style!css!less" }
+        ]
     }
 };
